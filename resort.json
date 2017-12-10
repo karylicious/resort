@@ -1,0 +1,114 @@
+var data= '{ "resort": [' + 
+        '{'+
+           ' "id":"resort1",'+
+			'"destination":"Caribbean",'+
+			'"name":"Les Boucaniers",'+
+            '"location":"Martinique",'+
+            '"comfortLevel": "4",'+
+            '"activities":["water skiing", "tennis", "scuba diving", "kitesurf", "spa"],'+
+			'"price":1254,'+
+			'"startDate":"2016-01-01",'+
+			'"endDate":"2016-12-31",'+
+			'"short_description":"The resort of Les Boucaniers is located on the laid-back beach-covered south coast of the island, and is perfectly placed for Martinique holidays that are both relaxing and awe-inspiring.",'+
+			'"picture":"./imgs/martinique.jpg",'+
+			'"thumbnail":"./imgs/thumbs/martinique.jpg",'+
+			'"long_description":"A divers paradise in the Baie du Marin, a legendary spot.<br>Its bungalows are discreetly lodged in a tropical garden beside the white sand beach in superb Marin Bay. A magical site where you can enjoy a taste of everything, alone or with family or friends. Try water sports and the magnificent Club Med Spa*. You will be enchanted by the exotic flavours of the local cuisine and the joyful spirit of the Caribbean.",'+
+			'"url":"resorts.html"'+
+        '},' +
+		'{'+
+			'"id":"resort2",'+
+			'"destination":"Indian Ocean",'+
+			'"name":"La Plantation d Albion",'+
+            '"location":"Mauritius",'+
+            '"comfortLevel": "5",'+
+            '"activities":["kids club","golf", "scuba diving", "flying trapeze", "tennis", "sailing", "spa"],'+
+			'"price":2062,'+
+			'"startDate":"2016-01-01",'+
+			'"endDate":"2016-12-31",'+
+			'"short_description":"Beautifully located in one of the last remote creeks on the island, La Plantation d Albion Club Med welcomes the most demanding of guests into a world of supreme refinement.",'+
+			'"picture":"./imgs/mauritius.jpg",'+
+			'"thumbnail":"./imgs/thumbs/mauritius.jpg",'+
+			'"long_description":"In a remote beauty spot, savour the luxury of Mauritian lifestyle. <br> The idyllic natural setting is enhanced by the sublime decor designed by Marc Hertrich and Nicolas Adnet, and the Resorts top-end comfort is perfectly reflected in its beautifully spacious rooms. The exceptional CINQ MONDES Spa* and luxurious overflow pool add an ideally Zen touch.<br> The Resort is entirely devoted to fulfilling its guests desires and offers discreet, personal service in its swimming areas, bars and Table Gourmet restaurants.",'+
+			'"url":"resorts.html"'+
+		'},' +
+		'{'+
+			'"id":"resort3",'+
+			'"destination":"North and Central America",'+
+			'"name":"Ixtapa Pacific",'+
+            '"location":"Mexico",'+
+            '"comfortLevel": "3",'+
+            '"activities":["kids club","golf", "scuba diving", "hiking", "tennis", "sailing", "horse riding"],'+
+			'"price":534,'+
+			'"startDate":"2016-01-01",'+
+			'"endDate":"2016-12-31",'+
+			'"short_description":"In the heart of the Sierra Madre Mountains, families enjoying their Mexico holidays can bask in the magnificent views over the Pacific Ocean offered by the Ixtapa Pacific resort...",'+
+			'"picture":"./imgs/mexico.jpg",'+
+			'"thumbnail":"./imgs/thumbs/mexico.jpg",'+
+			'"long_description":"By the Sierra Madre, a hacienda on the Pacific coast.<br/><br/>Ixtapa Pacific La Cufos  elegant 1940s hacienda-style architecture boasts beautifully renovated arches, colonnades and pergolas.<br/><br/>After exploring the indoor garden and the Salon des Astres (stargazing lounge), parents can indulge in their favourite sports or visit the nearby fishing village of Zihuatanejo*, while children make the most of the dedicated areas and facilities devised especially for them.",'+
+			'"url":"resorts.html"'+
+		'},'+		
+		'{'+
+			'"id":"resort4",'+
+			'"destination":"Asia",'+
+			'"name":"Sahoro",'+
+            '"location":"Japan",'+
+            '"comfortLevel": "3",'+
+            '"activities":["water skiing", "scuba diving", "tennis", "sailing", "spa"],'+
+			'"price":1062,'+
+			'"startDate":"2016-01-01",'+
+			'"endDate":"2016-12-31",'+
+			'"short_description":"Sahoro, in Hokkaido, is located in a similarly beautiful and protected natural environment – ideal for those with a passion for long walks in the countryside.",'+
+			'"picture":"./imgs/japan.jpg",'+
+			'"thumbnail":"./imgs/thumbs/japan.jpg",'+
+			'"long_description":"Slides and zen in the heart of snowy Hokkaido mountains<br/><br/>This small Family Resort was opened in 1987, in an enchanting location at the foot of the ski slopes, surrounded by forest.<br/><br/>After skiing, relax in the swimming pool or hot tub. Enjoy a family walk to admire the beauty of the mountain scenery.<br/><br/>Altitude: 1,030 metres (3,400ft).",'+
+			'"url":"resorts.html"'+
+		'},'+
+		'{'+
+			'"id":"resort5",'+
+			'"destination":"Europe",'+
+			'"name":"Da Balaia",'+
+            '"location":"Portugal",'+
+            '"comfortLevel": "4",'+
+            '"activities":["kids club","golf", "scuba diving", "water skiing", "spa"],'+
+			'"price":814,'+
+			'"startDate":"2016-01-01",'+
+			'"endDate":"2016-12-31",'+
+			'"short_description":"Da Balaia caters exceptionally well for families with young children. Live music, a swimming pool and a variety of sports activities ensure that there’s no room for dull moments",'+
+			'"picture":"./imgs/portugal.jpg",'+
+			'"thumbnail":"./imgs/thumbs/portugal.jpg",'+
+			'"long_description":"A red clay cliff looking out over the Atlantic Ocean, in the Algarve<br/><br/>The Resorts new look, courtesy of Didier Gomez, enhances the experience of total well-being. The restaurants vast windows flood the dining areas with light. Emphasis on relaxation and fun, with a brand new lounge round the swimming pool. A perfect decor for great evening entertainment.<br/><br/>And while our G.Os take care of your children and teenagers, from May 1st, 2016 you can relax and chill at the quiet pool or bar. Golf enthusiasts can make the most of new services dedicated to their needs: the Golfers Concierge Service and the Golf Workshop area.",'+
+			'"url":"resorts.html"'+
+		'},'+	
+		'{'+
+			'"id":"resort6",'+
+			'"destination":"The Alps",'+
+			'"name":"Pragelato Vialattea",'+
+            '"location":"Italy",'+
+            '"comfortLevel": "5",'+
+            '"activities":["kids club","golf", "tennis", "sailing", "spa"],'+
+			'"price":1558,'+
+			'"startDate":"2016-01-01",'+
+			'"endDate":"2016-12-31",'+
+			'"short_description":"Follow the tracks of the champions on Sestrieres Olympic downhill and cross country runs. Or for those wanting a slower pase enjoy traditionnal Italian cuisine.",'+
+			'"picture":"./imgs/italy.jpg",'+
+			'"thumbnail":"./imgs/thumbs/italy.jpg",'+
+			'"long_description":"Italian art de vivre at the foot of Europes second largest ski domain<br/><br/>In the heart of the second largest ski area in Europe - La Vialattea - this prestigious ski resort hosted the ski jumping and cross-country skiing events for the Turin Olmypics in 2006.</br>20 clusters of chalets around the Resort centre give pride of place to premium family accommodation.<br/>Rémy Camoin has reinterpreted the traditional cosy chalet ambience in an upbeat, contemporary style.<br/>An ideal holiday choice for families, with childrens club facilities from 2 years old through to teens, so that parents can make the most of the Italian art de vivre. The cable car located just 50 yards from the ski room takes you up to the Vialattea ski runs in around 4 minutes.",'+
+			'"url":"resorts.html"'+
+		'},'+
+		'{'+
+			'"id":"resort7",'+
+			'"destination":"South America",'+
+			'"name":"Rio Das Pedras",'+
+            '"location":"Brazil",'+
+            '"comfortLevel": "4",'+
+            '"activities":["kids club", "scuba diving", "water skiing", "sailing", "spa"],'+
+			'"price":674,'+
+			'"startDate":"2016-01-01",'+
+			'"endDate":"2016-12-31",'+
+			'"short_description":"For those keen to experience this legendary flora and fauna first-hand, the resort of Rio das Pedras enables visitors to do just that, within Brazil’s second largest nature reserve.",'+
+			'"picture":"./imgs/brazil.jpg",'+
+			'"thumbnail":"./imgs/thumbs/brazil.jpg",'+
+			'"long_description":"Brazils second largest nature reserve in the heart of Mata Atlantica<br/><br/>The colonial style bungalows blend harmoniously with the natural environment. The large seafront swimming pool lies next to the La Jangada restaurant, where after a day of waterskiing or excursions*, a wide variety of dishes awaits you at the buffet.<br/><br/>",'+
+			'"url":"resorts.html"'+
+		'}'+
+    ']}';

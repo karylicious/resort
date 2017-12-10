@@ -1,0 +1,117 @@
+<!doctype html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>La Cufos</title>
+		
+        <link rel="stylesheet" type="text/css" href="jquery-ui-1.11.4/jquery-ui.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="menu_style.css">
+        <link rel="stylesheet" type="text/css" href="animate.css">
+		
+		<script src='resort.json'></script>
+        <script src="jquery-1.11.3.min.js"></script>
+        <script src="jquery-ui-1.11.4/jquery-ui.js"></script>
+        <script src="script.js"></script>
+        <script src="menu_script.js"></script>
+        <script src="lettering.js"></script>
+        <script src='textillate.js'></script>
+    </head>
+    <body>
+        <header>
+            <div id="fullPage">
+                <img id="topline" src="imgs/line.png"> 
+                <a href="index.html"><img src="imgs/logo.png" class="logo"></a>
+                <a class="arrow-wrap" href="#" id="arrowTop">
+                    <span class="arrow"></span>
+                </a>
+            </div>
+        </header>
+        <div id="main_content">
+            <nav>
+                <div id='cssmenu'>
+                    <ul>
+                        <li class='active'><a href='index.html'>Home</a></li>
+                        <li><a href='#'>Discover La Cufos</a></li>
+                        <li><a href='#'>Our Destinations</a></li>
+                        <li><a href='#'>Our Resorts</a></li>
+                    </ul>
+                </div>
+            </nav>
+			<a class="arrow-wrap" href="#" id="arrowBottom">
+                <span class="arrow"></span>
+            </a>
+            <h1 id="headin" class="tlt">Start your Holiday here</h1>
+			<form action="results.html" method="link" id="formCriteria">
+            <div id="divCriteria">
+                <div id="divLeft" style="float:left;">
+                    <p>
+                        <label>Destination</label><br/>
+                        <select id="comboBoxDesti">
+                            <option value="none">Your Destination</option>
+                            <option value="The Alps">The Alps</option>
+                            <option value="Europe">Europe</option>
+                            <option value="Africa">Africa</option>
+                            <option value="Caribbean">The Caribbean</option>
+                            <option value="Indian Ocean">Indian Ocean</option>
+                            <option value="North and Central America">North and Central America</option>
+                            <option value="South America">South America</option>
+                            <option value="Asia">Asia</option>  
+                        </select>
+                    </p>
+                    <p>
+                        <label>Comfort Level</label><br/>	
+	                    <select id="comboBoxComf">
+                            <option value="none">Your Comfort</option>
+                            <option value="3">Comfort 3 star</option>
+                            <option value="4">Premium 4 star</option>
+                            <option value="5">Luxury 5 star</option> 
+                        </select>
+                    </p>
+                    <p>
+	                    <label>Activities</label><br/>
+	                    <button id="btnAct">Your Activities</button>
+	                    <div id="divCheckList">
+							<input type="checkbox" name="actv1" value="scuba diving"><img src="./imgs/diving.png" width="30px" height="30px">&nbsp;Scuba Diving<br>
+	                        <input type="checkbox" name="actv2" value="water skiing"><img src="./imgs/ski.png" width="30px" height="30px">&nbsp;Water Skiing<br>
+	                        <input type="checkbox" name="actv3" value="sailing"><img src="./imgs/sailing.png" width="30px" height="30px">&nbsp;Sailing<br>
+	                        <input type="checkbox" name="actv4" value="tennis"><img src="./imgs/tennis.png" width="30px" height="30px">&nbsp;Tennis<br>	                        
+	                        <input type="checkbox" name="actv5" value="golf"><img src="./imgs/golf.png" width="30px" height="30px">&nbsp;Golf<br>
+	                        <input type="checkbox" name="actv6" value="hiking"><img src="./imgs/hiking.png" width="30px" height="30px">&nbsp;Hiking<br>
+	                        <input type="checkbox" name="actv7" value="horse riding"><img src="./imgs/horse.png" width="30px" height="30px">&nbsp;Horse Riding<br>
+	                        <input type="checkbox" name="actv8" value="spa"><img src="./imgs/spa.png" width="30px" height="30px">&nbsp;Spa<br>
+	                        <input type="checkbox" name="actv9" value="flying trapeze"><img src="./imgs/trapeze.jpg" width="30px" height="30px">&nbsp;Flying Trapeze<br>
+	                        <input type="checkbox" name="actv10" value="kids club"><img src="./imgs/kids.png" width="30px" height="30px">&nbsp;Kids Club<br>
+	                        <input id="checkList" type="hidden" value="false">
+                    	</div>
+                    </p>
+                    <p>	
+                        <label>Available Date</label><br/>
+                        <input type="text" id="datepicker">
+                    </p>
+                    <p>                        
+                        <div id="divRange">
+						    <label>Price</label><br/>
+                            <label id="minAmount"></label>
+                            <div id="slider-range"></div>
+                            <label id="maxAmount"></label>
+                        </div>
+				    </p>
+                </div>
+                <div id="divRight"></div>
+            </div>
+            <div style="margin:auto; padding-top:50px;width:200px;">
+            <button class="btn"  id="btnSearch" type="submit" form="formCriteria" value="Submit">Search Resorts</button>
+            </div>
+			<input type="hidden" name="dt" id="dt" value="">
+			<input type="hidden" name="p" id="p" value="">
+			<input type="hidden" name="dtn" id="dtn" value="none">
+			<input type="hidden" name="comf" id="comf" value="none">
+			</form>			
+            <footer>
+			    <hr style="border-style:dashed; margin-bottom:30px;">
+				<div style="padding-bottom:30px;">©2016 La Cufos</div>
+			</footer>
+        </div>
+    </body>
+</html>

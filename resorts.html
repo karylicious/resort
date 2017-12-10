@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>La Cufos</title>
+		
+        <link rel="stylesheet" type="text/css" href="jquery-ui-1.11.4/jquery-ui.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="menu_style.css">
+        <link rel="stylesheet" type="text/css" href="animate.css">
+		
+		<script src='resort.json'></script>
+        <script src="jquery-1.11.3.min.js"></script>
+        <script src="jquery-ui-1.11.4/jquery-ui.js"></script>
+        <script src="script.js"></script>
+        <script src="menu_script.js"></script>
+        <script src="lettering.js"></script>
+        <script src='textillate.js'></script>
+    </head>
+    <body>
+        <header>
+            <div id="fullPage">
+                <img id="topline" src="imgs/line.png"> 
+                <a href="index.html"><img src="imgs/logo.png" class="logo"></a>
+                <a class="arrow-wrap" href="#" id="arrowTop">
+                    <span class="arrow"></span>
+                </a>								
+            </div>
+        </header>
+        <div id="main_content">
+            <nav>
+                <div id='cssmenu'>
+                    <ul>
+                        <li class='active'><a href='index.html'>Home</a></li>
+                        <li><a href='#'>Discover La Cufos</a></li>
+                        <li><a href='#'>Our Destinations</a></li>
+                        <li><a href='#'>Our Resorts</a></li>
+                    </ul>					
+                </div>
+				<div id="divFavour"><button id="btnOpen" style="margin-right:10px;"></button>Favourite Resorts</div>
+				<div id="favList">
+				    <button id="btnAdd"></button><span style="padding-top:10px;">Add this Resort</span>
+				    <hr>
+				    <div id="divListContainer"></div>				
+				</div>
+            </nav>
+			<a class="arrow-wrap" href="#" id="arrowBottom">
+                <span class="arrow"></span>
+            </a>
+            <div>
+                <div id="resTopImg"><h1 id="resortName">Resort</h1><span id="resortLoc" style="padding-left:100px; font-size:larger; font-weight:bold;"></span></div>
+                <h1  id="price" style="text-align:right; color:red; padding-right:50px;">£2062</h1>
+				<p id="startDate" style="text-align:right; padding-right:50px;"></p>
+				<p id="endDate" style="text-align:right; padding-right:50px;"></p>
+                <div class="resortDetails">
+                    <h2>Comfort</h2>
+                    <div class="outter">
+                            <div class="innerLeft">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi viverra ultricies tortor, et rutrum lectus mattis in. Sed consectetur dui at odio ornare, in bibendum lacus euismod. Nullam at justo vel mi porta mattis sit amet eget sapien. Nam elementum lorem elit. Sed viverra tincidunt cursus. Duis hendrerit aliquet pulvinar. Morbi suscipit dolor id velit molestie scelerisque. Morbi sit amet ornare nisl. Sed nisi sem, ornare sit amet massa ac, feugiat facilisis risus. Curabitur vel porttitor eros, a dapibus urna. Sed eget est aliquam, fermentum nisi ultrices, semper ex.</p>
+                            </div>
+                            <div class="innerRight"></div>
+                    </div>
+                </div>
+				<div class="resortDetails">
+                    <h2>Activities</h2>
+                    <div class="outter">
+                            <div class="innerLeft">
+                                <p>Activities included in your package:</p>								
+								<ul id="activities" style="list-style-type: none; margin-left:-20px;">
+								</ul>
+                            </div>
+                            <div class="innerRight"></div>
+                    </div>
+                </div>
+				<div class="resortDetails">
+                    <h2>Location</h2>
+                    <div class="outter">
+                            <div class="innerLeft">
+                                <p id="shortDescr"></p>
+                            </div>
+                            <div class="innerRight"></div>
+                    </div>
+                </div>
+				<h3 id="hLine"><span>Discover More</span></h3>
+				<div style="margin:auto; width:50%;">				    
+                    <div id="tabs">
+                        <ul>
+                            <li><a href="#tabs-1">Description</a></li>
+                            <li><a href="#tabs-2">Accomodation</a></li>
+                            <li><a href="#tabs-3">Map</a></li>
+                        </ul>
+                        <div id="tabs-1">
+                            <p id="longDescr"></p>
+                        </div>
+                        <div id="tabs-2">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi viverra ultricies tortor, et rutrum lectus mattis in. Sed consectetur dui at odio ornare, in bibendum lacus euismod. Nullam at justo vel mi porta mattis sit amet eget sapien. Nam elementum lorem elit. Sed viverra tincidunt cursus. Duis hendrerit aliquet pulvinar. Morbi suscipit dolor id velit molestie scelerisque. Morbi sit amet ornare nisl. Sed nisi sem, ornare sit amet massa ac, feugiat facilisis risus. Curabitur vel porttitor eros, a dapibus urna. Sed eget est aliquam, fermentum nisi ultrices, semper ex</p>
+                        </div>
+                        <div id="tabs-3">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.8003499023266!2d-0.14542948489615365!3d51.51687871783216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761ad51b1e1cf9%3A0x7eeacce91dcc14fe!2sUniversity+Of+Westminster!5e0!3m2!1sen!2suk!4v1452180258386" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+			<footer>
+		        <hr style="border-style:dashed; margin-bottom:30px;">
+			    <div style="padding-bottom:30px;">©2016 La Cufos</div>
+		    </footer>
+        </div>
+    </body>
+</html>

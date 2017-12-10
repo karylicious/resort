@@ -1,0 +1,290 @@
+*{font-family:cambria;}
+
+body {
+    background-image: url("./imgs/1.jpg");	
+	background-attachment : fixed;
+	background-position: 50% 50%;    
+	background-size: cover;       
+}
+
+#leftThumbnail{
+	width:10%; 
+	background-image: url('./imgs/ress.jpg');
+	background-size:100% 100%; 
+	background-repeat: no-repeat;  
+	float:left; 
+	padding:7%;
+}
+#fullPage {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgb(255, 255, 255);	
+}
+#resTopImg{
+	background-image:url("./imgs/res.jpg"); 
+	height:450px; 
+	background-size:100% 100%; 
+	background-repeat: no-repeat;
+	color:white;
+}
+
+h1[id="resortName"]{
+	padding-top:100px;
+	padding-left:100px;
+	
+}
+
+.resortDetails{
+	background-color:white; 
+	height:460px; 
+	margin-bottom:50px; 
+	padding-top:80px; 
+	margin-left:15px;
+	margin-right:15px;
+}
+h2{
+	width:900px; 
+	margin: auto;
+}
+.outter{
+	width:900px; 
+	margin: auto;
+}
+.innerLeft{
+	float:left; 
+	width:400px;
+}
+.innerRight{
+	float:right; 
+	width:450px; 
+	background-image: url('./imgs/ress.jpg'); 
+	background-size:100% 100%; 
+	background-repeat: no-repeat; 
+	padding:15%;
+}	
+	
+#headin{
+	padding-top:100px;
+	padding-bottom:20px;
+	color:#0E203F;
+	font-family:sans-serif;
+	margin:auto;
+	width:800px;
+}	
+#btnAdd{
+	height:20px;
+	width:20px;
+	margin-left:10px;
+}
+#divRight{
+	background-image: url('./imgs/thumbs/1.jpg'); 
+	background-size:100% 100%; 
+    background-repeat: no-repeat;	
+	float:right; 
+	height:100%; 
+	width:50%;	
+}
+
+#favList{
+	float:right; 
+	background-color:#BCBCBC; 
+	height:140px; 
+	width:168px;
+	margin-top: -15px; 
+	position: relative; 
+	margin-right:40px;
+	padding-top:10px;
+	border-radius: 5px;
+}
+#divFavour{
+	float:right; 
+	color:orange; 
+	margin-top: -35px; 
+	position: relative; 
+	margin-right:40px;
+}
+
+#divCriteria{
+	background-color:#3C78C7; 
+	color:white; 
+	font-family:sans-serif; 
+	height:400px; 
+	width:55%; 
+	margin: auto; 
+	padding-left:20px;	
+}
+
+
+#divCheckList{
+	-moz-column-count: 2;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 20px;
+    column-count: 2;
+    column-gap: 20px;
+	background-color:white;
+	color:black;
+	margin-bottom:10px;
+	margin-top:-16px;
+	padding:5px;
+}
+#main_content{
+	position: absolute;
+	background-color:#F0F0EE;	
+	top:100%;
+	width:100%;
+	right: 0;
+    left: 0;
+}
+
+select{
+	width:200px;
+}
+
+
+/* This class is added on scroll */
+.fixed {
+	position: fixed; 
+	top: 0; 
+	height: 46px; 
+	z-index: 1;
+}
+
+.innerLeft ul {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+
+.innerLeft li{
+	margin-bottom:10px;
+}
+
+nav{
+	position: absolute;
+	width: 100%;
+	height: 46px;
+	background-color:#823B0B;
+}
+
+#logo{
+	height:52%;
+	width:52%;
+}
+
+#topline{
+	top: 0px; 
+	position:fixed;
+    width: 100%;
+	height:3px;
+}
+
+.logo{	
+    top: 0px; 
+	margin-left: 90px;
+	max-width: 100%;
+	height: auto !important;
+	position:fixed;
+
+}
+* {
+    -moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.arrow-wrap {
+    bottom:0px;
+	position:absolute;
+	z-index:1;  
+	margin-left:-5em;
+	background:#823B0B;
+	width:40px;
+	padding:4em 2em;
+	font-size:4px;
+	display:block;
+	box-shadow:0px 0px 5px 0px #333;
+}
+
+
+#arrowTop{
+	right:25%;
+    left:50%;
+	transform:rotate(360deg);
+}
+
+#arrowBottom{
+	right:5%;
+	transform:rotate(180deg);
+}
+
+.arrow {
+	bottom:10px;
+	position:absolute;
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 3em 3em 0 3em;
+	border-color: #ffffff transparent transparent transparent;
+	-webkit-transform:rotate(360deg);
+	-moz-transform:rotate(360deg);
+	
+}
+
+.arrow:after {
+	content:'';
+	position:absolute;
+	top:-3.2em;
+	left:-3em;
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 3em 3em 0 3em;
+	border-color: #823B0B transparent transparent transparent;
+	-webkit-transform:rotate(360deg);
+	-moz-transform:rotate(360deg);
+	transform:rotate(360deg);
+}
+
+
+footer{
+    background-color:rgb(233,233,233);
+	text-align:center; 
+	bottom:0;
+	margin-top:100px;
+	width:100%;
+}
+
+
+
+#hLine { 
+	width:100%; 
+	text-align:center; 
+	border-bottom: 1px solid #000; 
+	line-height:0.1em; 
+	margin:10px 0 20px; 
+	border: 0; 
+	height: 1px; 
+	background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+	background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+	background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+	background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+	margin-bottom:120px;
+	margin-top:120px;
+}
+
+#hLine span { 
+    background-color:#F0F0EE; 
+    padding:0 10px; 	
+}
+
+
+.btn{
+	background-color:#2E2E1F;
+	color:#D3E5EC;
+	border-style:none;
+	cursor:pointer;
+}
